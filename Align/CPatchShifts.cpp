@@ -2,7 +2,7 @@
 #include <memory.h>
 #include <math.h>
 #include <stdio.h>
-#include <nvToolsExt.h>
+#include <nvtx3/nvToolsExt.h>
 
 using namespace MotionCor2::Align;
 

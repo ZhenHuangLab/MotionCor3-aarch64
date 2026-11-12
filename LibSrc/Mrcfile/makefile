@@ -20,7 +20,7 @@ OBJS	= $(patsubst %.cpp, %.o, $(SRCS))
 OUT	= libmrcfile.a
 
 CC = g++ -std=c++11
-CFLAGS	= -m64 -c -g -pthread -IInclude -I$(INCDIR)
+CFLAGS	= -c -g -pthread -IInclude -I$(INCDIR)
 
 all: $(OBJS)
 	@ar rcs $(OUT) $(OBJS)

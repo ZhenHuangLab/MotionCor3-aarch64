@@ -11,7 +11,7 @@
 #include <cuda.h>
 #include <cuda_runtime.h>
 #include <cufft.h>
-#include <nvToolsExt.h>
+#include <nvtx3/nvToolsExt.h>
 
 using namespace MotionCor2;
 namespace DU = MotionCor2::DataUtil;

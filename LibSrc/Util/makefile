@@ -6,7 +6,7 @@ OBJS = $(patsubst %.cpp, %.o, $(SRCS))
 OUT = libutil.a
 
 CC = g++ -std=c++11
-CFLAG = -c -g -pthread -m64
+CFLAG = -c -g -pthread
 
 all: $(OBJS)
 	@echo create library $(OUT) and move to $(PROJ_DIR)/Lib

@@ -8,7 +8,7 @@
 #include <errno.h>
 #include <cuda.h>
 #include <cuda_runtime.h>
-#include <nvToolsExt.h>
+#include <nvtx3/nvToolsExt.h>
 
 using namespace MotionCor2;
 

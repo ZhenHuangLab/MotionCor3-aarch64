@@ -6,7 +6,7 @@
 #include <cufft.h>
 #include <memory.h>
 #include <stdio.h>
-#include <nvToolsExt.h>
+#include <nvtx3/nvToolsExt.h>
 
 using namespace MotionCor2;
 using namespace MotionCor2::Align;

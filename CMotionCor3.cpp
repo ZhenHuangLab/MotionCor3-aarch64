@@ -6,7 +6,7 @@
 #include <cuda_runtime.h>
 #include <stdio.h>
 #include <string.h>
-#include <nvToolsExt.h>
+#include <nvtx3/nvToolsExt.h>
 
 using namespace MotionCor2;
 
